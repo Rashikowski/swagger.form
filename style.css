@@ -49,15 +49,16 @@ textarea {
 
 input[type="text"]:focus {
     outline-color: pink;
+    border: 2px solid pink;
 }
 
 input[type="email"]:focus, textarea:focus {
     outline-color: blue;
+    border: 2px solid blue;
 }
 
 input[type="button"] {
     width: 150px;
-    background-color: white;
 }
 
 /* Here starts the Toggle */
